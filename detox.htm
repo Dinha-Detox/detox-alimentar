@@ -1,0 +1,1169 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+	
+		
+
+
+
+
+
+
+    
+        
+            
+            <!-- Google Tag Manager -->
+            <script>
+                ;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://stape.alura.com.br/qukryqvi.js?st='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayerAlura','NTLWWLR');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+        
+    
+
+
+    <script>
+        let dataLayerAlura = window.dataLayerAlura || [];
+        dataLayerAlura.push({
+            'event': 'virtual_page_view',
+            'page_category': 'Fórum',
+            
+        });
+    </script>
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+	<title>HTML/CSS | HTML5 e CSS3 parte 1: crie uma página da Web | Solucionado</title>
+
+	<link rel="shortcut icon" href="/assets/images/alura/favicon.ico">
+
+	
+
+	<link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:400,300,600,700,800|Source+Serif+Pro' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/css/lib/prettify.9c184279.css">
+	<link rel="stylesheet" href="/assets/external-libs/highlightjs/github.754087c4.css">
+
+	<link rel="stylesheet" href="/assets/css/base.f643e441.css">
+
+	<link rel="stylesheet" href="/assets/css/block/container.1051fe48.css">
+	<link rel="stylesheet" href="/assets/css/block/header.c4f115a5.css">
+	<link rel="stylesheet" href="/assets/css/block/headerDesktop.4266417f.css">
+	<link rel="stylesheet" href="/assets/css/block/headerNews.cc911c64.css">
+	<link rel="stylesheet" href="/assets/css/block/headerList.71c2fcf4.css">
+	<link rel="stylesheet" href="/assets/css/block/headerUnlogged.1a0f779e.css">
+	<link rel="stylesheet" href="/assets/css/block/footer.a852aa15.css">
+	
+	<link rel="stylesheet" href="/assets/css/block/checkbox.c4121c6c.css">
+	<link rel="stylesheet" href="/assets/css/block/paginator.1d935151.css">
+	<link rel="stylesheet" href="/assets/css/block/profileAvatar.c1c04ab9.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBox.b73ece0c.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBoxWithBanner.8a8b9fb2.css">
+	<link rel="stylesheet" href="/assets/css/block/courseLogo.37e328c1.css">
+	<link rel="stylesheet" href="/assets/css/block/courseSectionList.c965aa0f.css">
+	<link rel="stylesheet" href="/assets/css/block/button.a6bc4bfa.css">
+	<link rel="stylesheet" href="/assets/css/block/seeMoreButton.b1d5c079.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBar.f194a6ce.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBall.eb059a2c.css">
+	<link rel="stylesheet" href="/assets/css/block/showOpenAnswerExercise.35da852c.css">
+	<link rel="stylesheet" href="/assets/css/block/showMultipleChoiceAnswerExercise.564704cc.css">
+	<link rel="stylesheet" href="/assets/css/block/card.6e071ea1.css">
+	<link rel="stylesheet" href="/assets/css/block/lightCard.8c63f526.css">
+	<link rel="stylesheet" href="/assets/css/block/cardList.447e11d7.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.2262238d.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuidePercentageCard.cf406a56.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardList.e4ff1685.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCardList.01949667.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardBig.3efbae12.css">
+	<link rel="stylesheet" href="/assets/css/block/courseRateCard.8bc11df1.css">
+	<link rel="stylesheet" href="/assets/css/block/cardCategory.3106730f.css">
+	<link rel="stylesheet" href="/assets/css/block/alert.ec6bb786.css">
+	<link rel="stylesheet" href="/assets/css/block/careerHeader.fdbca180.css">
+	<link rel="stylesheet" href="/assets/css/block/careerCourses.77942983.css">
+	<link rel="stylesheet" href="/assets/css/block/learningStepContentList.1956fc83.css">
+	<link rel="stylesheet" href="/assets/css/block/levelMenu.7a9febf7.css">
+	<link rel="stylesheet" href="/assets/css/block/pointsGraphic.0f3db6d0.css">
+	<link rel="stylesheet" href="/assets/css/block/forumDiscussions.e4dba666.css">
+	<link rel="stylesheet" href="/assets/css/block/forumList.72a95ec0.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionContent.f5ce413c.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionVideo.fe961a3e.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionMenu.f99ff3cf.css">
+	<link rel="stylesheet" href="/assets/css/block/elasticMedia.f91fc855.css">
+	<link rel="stylesheet" href="/assets/css/block/formattedText.e58775de.css">
+	<link rel="stylesheet" href="/assets/css/block/exerciseContent.832eedc0.css">
+	<link rel="stylesheet" href="/assets/css/block/starRating.068da9d2.css">
+	<link rel="stylesheet" href="/assets/css/block/markdownEditor.600de57a.css">
+	<link rel="stylesheet" href="/assets/css/block/styledSelect.597181e1.css">
+	<link rel="stylesheet" href="/assets/css/block/assessment.0162ef24.css">
+	<link rel="stylesheet" href="/assets/css/block/audioPlayer.0a362c88.css">
+	<link rel="stylesheet" href="/assets/css/block/search.1d5ff085.css">
+	<link rel="stylesheet" href="/assets/css/block/banner.01935112.css">
+	<link rel="stylesheet" href="/assets/css/block/bannerDetails.d9eef24d.css">
+	<link rel="stylesheet" href="/assets/css/block/vote.97862edb.css">
+	<link rel="stylesheet" href="/assets/css/block/form.06dd7fe8.css">
+	<link rel="stylesheet" href="/assets/css/block/modal.5da2b30a.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideProgresses.4be87b2e.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCard.a20baeba.css">
+	<link rel="stylesheet" href="/assets/css/block/progressTracker.d234ab44.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.2262238d.css">
+	<link rel="stylesheet" href="/assets/css/block/companyLayoutCustomization.c5aea27a.css">
+	<link rel="stylesheet" href="/assets/css/block/breadcrumb.e7a9d8ef.css">
+	<link rel="stylesheet" href="/assets/css/pages/discussion/topic-breadCrumb.d4b41a33.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/licenseAgreement.19f5fba4.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/alertLicenseCard.4e8bf8c4.css">
+
+	
+
+    
+
+    
+    
+    
+
+    <meta property="og:site_name" content="Alura">
+    <meta property="og:title" content="HTML/CSS | Fórum Alura">
+    <meta property="og:description" content="Solucionado |  HTML:&lt;br&gt;```&lt;br&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;br&gt;&amp;lt;html lang=&quot;pt-br&quot;&amp;gt;&lt;br&gt;  &amp;lt;head&amp;gt;&lt;br&gt;    &amp;lt;meta charset=&quot;UTF-8&quot; /&amp;gt;&lt;br&gt;    &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&amp;gt;&lt;br&gt;    ">
+    <meta property="og:image" content="https://www.alura.com.br/assets/api/share/alura-forum-share.png">
+
+    <meta name="description" content="Solucionado |  HTML:&lt;br&gt;```&lt;br&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;br&gt;&amp;lt;html lang=&quot;pt-br&quot;&amp;gt;&lt;br&gt;  &amp;lt;head&amp;gt;&lt;br&gt;    &amp;lt;meta charset=&quot;UTF-8&quot; /&amp;gt;&lt;br&gt;    &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&amp;gt;&lt;br&gt;    ">
+
+    <link rel="stylesheet" href="/assets/css/pages/discussion/topic.de43c5e3.css">
+    <link rel="stylesheet" href="/assets/css/pages/discussion/topic-post.3cc49feb.css">
+    <link rel="stylesheet" href="/assets/css/pages/discussion/topic-post-author.c4b6dedc.css">
+    <link rel="stylesheet" href="/assets/css/classPage/back-to-top.9a8b5967.css">
+    <link rel="stylesheet" href="/assets/css/pages/discussion/forum-signup.b1c0c483.css">
+    <link rel="stylesheet" href="/assets/css/pages/discussion/enrollmentCtaBanner.98c1461f.css">
+    <link rel="stylesheet" href="/assets/css/immersiveCourse/immersiveCourseBanner.e6a80f56.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/lib/clipper.647d33f8.css">
+
+
+    <script type="application/ld+json">
+        {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"position":1,"item":{"name":"Fórum","@id":"https://cursos.alura.com.br/forum"},"@type":"ListItem"},{"position":2,"item":{"name":"Front-end","@id":"https://cursos.alura.com.br/forum/categoria-front-end"},"@type":"ListItem"},{"position":3,"item":{"name":"HTML e CSS","@id":"https://cursos.alura.com.br/forum/subcategoria-html-css"},"@type":"ListItem"},{"position":4,"item":{"name":"HTML5 e CSS3 parte 1: crie uma página da Web","@id":"https://cursos.alura.com.br/forum/curso-html5-css3-primeiros-passos"},"@type":"ListItem"}]}
+	</script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "QAPage",
+            "mainEntity": {
+                "@type": "Question",
+                "name": "HTML/CSS",
+                "text": "HTML:&lt;br&gt;```&lt;br&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;br&gt;&amp;lt;html lang=&quot;pt-br&quot;&amp;gt;&lt;br&gt;  &amp;lt;head&amp;gt;&lt;br&gt;    &amp;lt;meta charset=&quot;UTF-8&quot; /&amp;gt;&lt;br&gt;    &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&amp;gt;&lt;br&gt;    ",
+                "answerCount": "1",
+                "dateCreated": "2022-08-01 20:33",
+                "author": {
+                    "@type": "Person",
+                    "name": "Diego Vicente Pereira"
+                }
+                
+                
+                ,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "&lt;p&gt;Oi Diego, tudo bem?&lt;/p&gt;
+&lt;p&gt;Obrigada por compartilhar com a gente o seu c&oacute;digo e parab&eacute;ns por praticar! &Eacute; assim que conseguimos fixar o que vimos nas aulas :D&lt;/p&gt;
+&lt;p&gt;Continue os bons estudos.&lt;/p&gt;
+&lt;p&gt;Abra&ccedil;o.&lt;/p&gt;",
+                    "dateCreated": "2022-08-02 10:47",
+                    "url": "https://cursos.alura.com.br/forum/topico-html-css-236569#1144989",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Lorena Garcia"
+                    }
+                }
+                
+                
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/pages/discussion/subscribeNewsletterCard.4a9734ba.css">
+
+
+
+	
+
+	<link rel="stylesheet" href="/assets/css/classPage/dark-mode.93e5671c.css">
+
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/block/headerAluraDark.633fb722.css">
+		<link rel="stylesheet" href="/assets/css/aluradark/aluradarkTheme.ef0f7f69.css">
+	
+
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/block/engagementSearch.609cb673.css">
+		<link rel="stylesheet" href="/assets/css/menu/engagementMenu.37efc872.css">
+		<link rel="stylesheet" href="/assets/css/block/bannerTitleEngagement.36bf4036.css">
+	
+
+	
+
+	
+
+	<!-- Remove cookie banner from hubspot -->
+	<style>
+
+		div#hs-eu-cookie-confirmation {
+			display: none;
+		}
+	</style>
+
+	
+		<link rel="stylesheet" href="/assets/css/assessment/assessmentDashboardSection.cea0b1b8.css">
+	
+
+</head>
+
+<body class=" ">
+<script src="/assets/js/avatarOnError.f8bd8956.js"></script>
+
+
+    
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://stape.alura.com.br/ns.html?id=GTM-NTLWWLR"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script src="/assets/js/courseIconFallback.2167e6e7.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+		
+
+
+
+
+
+
+
+
+
+    <head>
+        <link rel="stylesheet" href="/assets/css/menu/unloggedMenuForum.d61a5836.css">
+    </head>
+
+    <header class="main-container-header">
+        <div class="menu__drawer-forum">
+            <div>
+                <a>
+                    <img class="header-logo header-logo-alura" src="/assets/images/logos/logo-alura.svg" alt="alura">
+                </a>
+            </div>
+            <div class="container-text">
+                <div class="options">
+                    <a href="/loginForm?urlAfterLogin=/forum/topico-html-css-236569">
+                        <span>Entrar</span>
+                    </a>
+                    <span class="options-separator"></span>
+                    <a href="https://www.alura.com.br/planos-cursos-online">
+                        <span class="cta-click-header">Ainda não tem acesso?</span>
+                    </a>
+                </div>
+                <div class="plans-button-wrapper">
+                    <button class="plans-button cta-click-header"><a class="button-link" href="https://www.alura.com.br/planos-cursos-online">Veja os planos</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script type="text/javascript" src="/assets/js/forum/addForumEventForGA.35f087ba.js"></script>
+
+	
+
+	
+		
+
+		
+
+		
+
+		
+			
+
+
+
+
+
+
+
+
+		
+
+		
+
+		
+
+	
+
+
+
+
+<div class="topic">
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			<section class="banner bootcamp-banner-background-theme " id="banner-section">
+				<div class="container">
+					
+						
+							<div class="banner-title">
+								
+									
+										<a href="/forum" class="banner-title-link">
+												Fórum 
+										</a>
+									
+									
+								
+							</div>
+						
+						
+					
+					
+				</div>
+			</section>
+			<div class="banner-wrapper">
+				
+				
+
+
+
+
+			</div>
+		
+	
+
+
+
+
+    
+        <div class="solved container">
+            <div class="topic-solved">
+                <span class="topic-solved-text">Solucionado <a href="#1144989">(ver solução)</a></span>
+            </div>
+        </div>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="topic-question">
+
+            <div class="topic-post-status">
+                
+                    <div class="topic-post-status-solved">
+                        <img class="topic-post-status-icon-solved" src="/assets/images/topics/icon-solved.svg">
+                        <span class="topic-post-status-solved-text">
+                            Solucionado
+                            <br>
+                            <a href="#1144989">(ver solução)</a>
+                        </span>
+                    </div>
+                
+                <div class="topic-post-total-answers">
+                    <span class="topic-post-total-answers-number">1</span>
+                    <br>
+                    <span class="topic-post-total-answers-description">
+                        
+                        
+                        resposta
+                    </span>
+                </div>
+            </div>
+
+            <div class="topic-post-question-content">
+                <header class="topic-header">
+                    <div class="topic-header-container">
+                        <div class="topic-header-container-info">
+                            <h1 class="topic-header-container-title">
+                                HTML/CSS
+                            </h1>
+
+                            
+                            <div class="topic-header-container-details-date">
+                                <time class="topic-header-date-text" datetime='01/08/2022'>
+                                    <span>Publicado 3 anos atrás</span>
+                                    
+                                        <span>, em 01/08/2022</span>
+                                    
+                                </time>
+                            </div>
+
+                            <div class="topic-breadcrumbs-wrapper">
+                                
+
+
+
+<style>
+    
+
+    .topic-breadCrumb-item-category-236569 {border-left: 3px solid #6bd1ff;}
+</style>
+
+<nav class="topic-breadCrumb">
+    <ol class="topic-breadCrumb-list">
+        
+            <li class="topic-breadCrumb-item">
+                <a href="/forum/categoria-front-end" class="topic-breadCrumb-item-link topic-breadCrumb-item-category-236569">Front-end</a>
+            </li>
+        
+            <li class="topic-breadCrumb-item">
+                <a href="/forum/subcategoria-html-css" class="topic-breadCrumb-item-link topic-breadCrumb-item-category-236569">HTML e CSS</a>
+            </li>
+        
+            <li class="topic-breadCrumb-item">
+                <a href="/forum/curso-html5-css3-primeiros-passos" class="topic-breadCrumb-item-link topic-breadCrumb-item-category-236569">HTML5 e CSS3 parte 1: crie uma página da Web</a>
+            </li>
+        
+    </ol>
+</nav>
+                            </div>
+
+                            
+
+                            
+                                
+                                
+                                
+                                <p class="topic-header-relatedLinks">
+                                    
+                                        
+                                            
+                                            
+                                            
+                                            
+                                                Referente ao curso <a href="https://www.alura.com.br/curso-online-html5-css3-primeiros-passos">HTML5 e CSS3 parte 1: crie uma página da Web</a>,
+                                                no capítulo <a href="/loginForm?urlAfterLogin=/course/html5-css3-primeiros-passos/section/7949/tasks" rel="nofollow">Trabalhando com CSS</a>
+                                                e atividade <a href="/loginForm?urlAfterLogin=/course/html5-css3-primeiros-passos/task/53609" rel="nofollow">Organizando o estilo</a>
+                                            
+                                        
+                                        
+                                    
+                                </p>
+                            
+
+                        </div>
+
+                        <div class="topic-header-container-details">
+                            
+
+                            
+                        </div>
+                    </div>
+
+                </header>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="topic-post" id="1144652">
+    <div class="">
+        
+        <section class="topic-post-header">
+            
+
+
+
+
+<section class="topic-post-author">
+    
+        
+        
+            <a href="/user/vp-diego28"
+               class="topic-post-author-photo" >
+                <img src="https://github.com/DiegoVP66.png?size=60&d=https%3A%2F%2Fwww.gravatar.com%2Favatar%2F3c51f67584749b7b3fd6c8f873f03322.png%3Fr%3DPG%26size%3D60x60%26date%3D2025-04-21%26d%3Dhttps%253A%252F%252Fcursos.alura.com.br%252Fassets%252Fimages%252Fforum%252Favatar_d.png" alt="" class="topic-post-author-photo-img" />
+            </a>
+        
+    
+    <div class="topic-post-author-details">
+        
+        
+
+        por
+        
+            
+            
+                <a href="/user/vp-diego28"
+                   class="topic-post-author-name">
+                    Diego Vicente Pereira
+                </a>
+            
+        
+
+        <div class="topic-post-author-exp"> | <span class="topic-post-author-formatted-xp">46.4k</span> xp | <span class="topic-post-author-posts">65</span> posts</div>
+        
+        
+            <span class="topic-post-author-desc"></span>
+        
+    </div>
+</section>
+
+            
+        </section>
+
+        <section class="topic-post-content" data-external-links>
+            <p>HTML:</p>
+<pre class="prettyprint"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang&#61;&#34;pt-br&#34;&gt;
+  &lt;head&gt;
+    &lt;meta charset&#61;&#34;UTF-8&#34; /&gt;
+    &lt;meta http-equiv&#61;&#34;X-UA-Compatible&#34; content&#61;&#34;IE&#61;edge&#34; /&gt;
+    &lt;meta name&#61;&#34;viewport&#34; content&#61;&#34;width&#61;device-width, initial-scale&#61;1.0&#34; /&gt;
+    &lt;link rel&#61;&#34;stylesheet&#34; href&#61;&#34;assets/styles/style.css&#34; /&gt;
+    &lt;title&gt;Barbearia Alura&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Sobre a Barbearia Alura&lt;/h1&gt;
+
+    &lt;p class&#61;&#34;text-content&#34;&gt;
+      Localizada no coração da cidade a &lt;strong&gt;Barbearia Alura&lt;/strong&gt; traz
+      para o mercado o que há de melhor para o seu cabelo e barba. Fundada em
+      2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes
+      a cada dia.
+    &lt;/p&gt;
+
+    &lt;p class&#61;&#34;text-content&#34; id&#61;&#34;mission&#34;&gt;
+      &lt;em
+        &gt;Nossa missão é:
+        &lt;strong
+          &gt;&#34;Proporcionar auto-estima e qualidade de vida aos clientes&#34;.&lt;/strong
+        &gt;
+      &lt;/em&gt;
+    &lt;/p&gt;
+
+    &lt;p class&#61;&#34;text-content&#34;&gt;
+      Oferecemos profissionais experientes e antenados às mudanças no mundo da
+      moda. O atendimento possui padrão de excelência e agilidade, garantindo
+      qualidade e satisfação dos nossos clientes.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre><p>CSS:</p>
+<pre class="prettyprint"><code>h1,
+.text-content {
+  text-align: center;
+}
+
+#mission {
+  font-size: 20px;
+}</code></pre>
+        </section>
+
+        <div class="topic-post-actions">
+            
+        </div>
+    </div>
+</section>
+            </div>
+
+        </div>
+    </div>
+
+    
+        
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            
+
+
+
+    <section class="cta-banner-forum">
+        <a class="banner-cta__link" href="https://www.alura.com.br/planos-cursos-online">
+            <div class="container banner-container banner-cta__container">
+                <div class="image-banner-container">
+                    <span class="banner-cta__image"></span>
+                </div>
+                <div class="banner-cta__description-wrapper">
+                    <p class="banner-cta__description">
+                        Ainda não faz parte da <span class="colored-text">Alura</span>? matricule-se e tenha <span class="colored-text">acesso a todos os cursos</span> e conteúdos
+                    </p>
+                </div>
+                <img src="/assets/images/forum/banner/banner-detail.svg" class="banner-cta__image-detail" alt="alura scuba">
+                <div class="banner-cta__btn-wrapper">
+                    <button class="banner-cta__btn banner__btn" type="button">
+                        Veja os planos
+                    </button>
+                </div>
+            </div>
+        </a>
+    </section>
+        
+    
+
+    
+
+    
+
+
+    
+        <section class="topic-answers">
+            <div class="topic-answers-banner">
+                <div class="container">
+                    1
+                    
+                        
+                            <span>resposta</span>
+                        
+                        
+                    
+                </div>
+            </div>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="topic-post" id="1144989">
+    <div class="container">
+        
+            <div class="topic-post-solved">
+                <span class="topic-post-solved-text">solução!</span>
+            </div>
+        
+        <section class="topic-post-header">
+            
+
+
+
+
+<section class="topic-post-author">
+    
+        
+        
+            <a href="/user/lorena-garcia"
+               class="topic-post-author-photo" >
+                <img src="https://cdn2.gnarususercontent.com.br/1/1159673/3abbe29a-6e4e-42c4-bbc2-ef59a4e6eaeb.jpg?width=60&height=60&aspect_ratio=1:1" alt="" class="topic-post-author-photo-img" />
+            </a>
+        
+    
+    <div class="topic-post-author-details">
+        
+        
+
+        por
+        
+            
+            
+                <a href="/user/lorena-garcia"
+                   class="topic-post-author-name">
+                    Lorena Garcia
+                </a>
+            
+        
+
+        <div class="topic-post-author-exp"> | <span class="topic-post-author-formatted-xp">9723.3k</span> xp | <span class="topic-post-author-posts">14592</span> posts</div>
+        
+            <span class="topic-post-author-moderator topic-post-author-moderator-alura"> Alura Scuba Team</span>
+        
+        
+            <span class="topic-post-author-desc">Suporte Educacional</span>
+        
+    </div>
+</section>
+
+            
+                <time datetime='2022-08-02 07:47'>
+                    <span class="topic-post-date">02/08/2022</span>
+                </time>
+            
+        </section>
+
+        <section class="topic-post-content" data-external-links>
+            <p>Oi Diego, tudo bem?</p>
+<p>Obrigada por compartilhar com a gente o seu código e parabéns por praticar! É assim que conseguimos fixar o que vimos nas aulas :D</p>
+<p>Continue os bons estudos.</p>
+<p>Abraço.</p>
+        </section>
+
+        <div class="topic-post-actions">
+            
+        </div>
+    </div>
+</section>
+            
+        </section>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			<footer class="footer container">
+				<a href="/dashboard" class="footer-logo">
+					
+
+
+
+
+
+    
+        
+        <img class="header-logo header-logo-alura" src="/assets/images/logos/logo-alura.svg" alt="Logo da alura">
+    
+    
+
+
+				</a>
+
+                <ul class="footer-menu">
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/sobre" target="">Sobre a Alura</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/contato/" target="_blank">Dúvidas frequentes</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://forms.office.com/r/fLM3kQwT77" target="_blank">Sugira um curso</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://github.com/caelum/alura-funcionalidades" target="_blank">Sugira uma funcionalidade</a>
+                        </li>
+                    
+                        <li class="footer-menu-item">
+                            <a class="footer-menu-item-link" href="https://www.alura.com.br/artigos" target="_blank">Blog da Alura</a>
+                        </li>
+                    
+                    
+                    <div class="links-fiap">
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://www.fiap.com.br/graduacao/?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">Graduação</a>
+                            </li>
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://postech.fiap.com.br/?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">Pós-Graduação</a>
+                            </li>
+                        
+                            <li class="footer-menu-item">
+                                <a class="footer-menu-item-link" href="https://www.fiap.com.br/mba?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content="
+                                   target="_blank">MBA</a>
+                            </li>
+                        
+                    </div>
+                </ul>
+
+				<section role="presentation" class="footer-footerGroup">
+					
+						<div class="footer-links">
+							<h2 class="footer-links-title">Acompanhe-nos</h2>
+							<ul role="presentation" class="footer-socialMedia">
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://www.youtube.com/user/aluracursosonline" target="_blank" title="Youtube da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-youtube">
+												<use xlink:href="/assets/images/icons-redes-hipster.svg#icon-footer-youtube"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://www.facebook.com/AluraCursosOnline/" target="_blank" title="Facebook da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-facebook">
+												<use xlink:href="/assets/images/icons-redes-hipster.svg#icon-footer-facebook"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://twitter.com/aluraonline" target="_blank" title="Twitter da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-twitter">
+												<use xlink:href="/assets/images/icons-redes-hipster.svg#icon-footer-twitter"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="http://hipsters.tech/" target="_blank" title="Podcast Hipsters Ponto Tech">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-hipsters">
+												<use xlink:href="/assets/images/icons-redes-hipster.svg#icon-footer-hipsters"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-socialMedia-item">
+										<a class="footer-socialMedia-item-link" href="https://instagram.com/aluraonline" target="_blank" title="Instagram da Alura">
+											<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-instagram">
+												<use xlink:href="/assets/images/icons-redes-hipster.svg#icon-footer-instagram"/>
+											</svg>
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+					
+						<div class="footer-links">
+							<h2 class="footer-links-title">Apps</h2>
+							<ul class="footer-hotLinks-menu footer-hotLinks-mobile">
+								
+									<li class="footer-hotLinks-item">
+										<a class="footer-hotLinks-item-link" href="https://play.google.com/store/apps/details?id=br.com.alura.mobi&hl=pt_BR" target="_blank" title="Google Play Store">
+											<svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+												<use xlink:href="/assets/images/icons-mobile.svg#icon-footer-googlePlay"/>
+											</svg>
+										</a>
+									</li>
+								
+									<li class="footer-hotLinks-item">
+										<a class="footer-hotLinks-item-link" href="https://itunes.apple.com/br/app/alura-cursos-online/id1225776635" target="_blank" title="Apple App Store">
+											<svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+												<use xlink:href="/assets/images/icons-mobile.svg#icon-footer-appStore"/>
+											</svg>
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+				</section>
+			</footer>
+		
+	
+
+
+
+
+
+
+
+
+
+	
+	<!-- Hotjar Tracking Code for https://cursos.alura.com.br and https://bootcamps.alura.com.br -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:1638253,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+    
+
+
+<script src="/assets/external-libs/jquery/jquery-3.6.0.min.7c14a783.js"></script>
+
+<script src="/assets/js/sectionMenu.2bb600e2.js"></script>
+<script src="/assets/external-libs/buttonToggle.41524be9.js"></script>
+<script src="/assets/external-libs/caret.2e5c0c9d.js" async></script>
+<script src="/assets/external-libs/purify.min.549c43ec.js" ></script>
+
+<script src="/assets/external-libs/highlightjs/highlight.min.9b99da81.js" async></script>
+<script src="/assets/external-libs/highlightjs/highlight.init.5870d8cf.js" async></script>
+
+<script src="/assets/js/dashboard/search.5992338a.js" async></script>
+<script src="/assets/js/dashboard/submitChatbotSearch.87eb88e6.js" async></script>
+<script src="/assets/js/dashboard/news.4f082bd3.js" async></script>
+<script src="/assets/js/dashboard/categoryExplorerCarousel.7e7489f7.js" async></script>
+
+<script src="/assets/js/points/populateGrid.41971c83.js"></script>
+<script src="/assets/js/points/makeHeaderPoints.ed06bad3.js"></script>
+<script src="/assets/js/block/preventsMultipleInteractions.19502e19.js" async></script>
+<script src="/assets/js/block/assessment.78d1fb98.js" async></script>
+<script src="/assets/js/block/login-form.574f4293.js" async></script>
+<script src="/assets/js/block/menuToggle.306a030c.js" async></script>
+<script src="/assets/js/block/headerToggle.b4e7c418.js" async></script>
+<script src="/assets/js/block/emptyMenuVerifier.eb84313c.js"></script>
+
+<script src="/assets/js/header/responsiveHeaderToggle.5cc69803.js" async></script>
+
+<script src="/assets/js/Bookmark.26673b03.js"></script>
+
+<script src="/assets/js/gnarus/classPage/aria.a82b16ad.js" async></script>
+
+<script src="/assets/js/extracontent/ExtraContentProgressRequest.7f84629c.js"></script>
+
+
+
+
+	
+	
+		
+	
+
+
+<script src="/assets/js/block/audioPlayer.879237fd.js"></script>
+<script src="/assets/js/blackFriday/Countdown.ed0ca300.js"></script>
+<script src="/assets/js/LearningContentMarkWatched.8554af35.js"></script>
+<script src="/assets/js/unloggedHome/licenseAgreement.a56b6b8f.js"></script>
+
+<script>
+	
+	
+	let bookmark = new Bookmark();
+	bookmark.setMessages("Exibir no meu dashboard","Deixar de exibir no dashboard");
+	bookmark.refreshListener();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/assets/css/uploadImages/uploadImages.7c1a29db.css" rel="stylesheet" />
+
+<script src="/assets/js/uploadImages/UploadProgress.14749111.js"></script>
+<script src="/assets/js/uploadImages/ImagesClient.b358c789.js"></script>
+
+<script src="/assets/external-libs/marked.min.c69e14e8.js"></script>
+
+<script src="/assets/js/forum/enableForumButtons.1293253c.js"></script>
+
+<script>
+    var IMAGE_UPLOAD_MESSAGES = {
+        imageUploadMessageInit: `Anexe arquivos arrastando e soltando`,
+        imageUploadMessageDragEnter: `Solte a imagem para fazer o upload`,
+        imageUploadMessageDrop: `Enviando a imagem #images_names#`,
+        imageUploadMessageProgress: `Enviando a imagem #images_names#: #progress#%`,
+        imageUploadMessageUploaded: `Imagem enviada com sucesso!`,
+        imageUploadMessageSizeUnits: `MB`,
+        imageUploadMessageTag: `![Insira aqui a descrição dessa imagem para ajudar na acessibilidade](#url#) `
+    }
+</script>
+
+
+    
+    
+        <script src="/assets/js/markdownEditor.6d9e85c7.js"></script>
+        <script>
+            var MarkdownEditor = new MarkdownEditor(
+                'https://www.gnarususercontent.com.br/images',
+                'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                1,
+                ,
+                IMAGE_UPLOAD_MESSAGES
+            );
+        </script>
+    
+
+
+
+    <script src="/assets/js/gnarus/topic.209f5f57.js" async></script>
+    <script src="/assets/js/gnarus/closeTopicAlert.e0bffb64.js" async></script>
+    <script src="/assets/js/gnarus/keydownWatchers.fdc4ec79.js" async></script>
+    <script src="/assets/js/gnarus/task/MarkdownProcessing.4fa8352c.js"></script>
+    <script src="/assets/external-libs/clipboard.min.af8ab365.js"></script>
+    <script src="/assets/js/gnarus/task/Clipper.4471c01b.js"></script>
+    <script src="/assets/js/gnarus/avoidDuplicatePostAnswer.bf06244a.js"></script>
+    <script src="/assets/js/gnarus/post.faba618b.js"></script>
+    
+    <script src="/assets/js/gnarus/scroll-to-top.1d1e7575.js"></script>
+    <script>
+        new MarkdownProcessing("https://cursos.alura.com.br").onLoad();
+        new Clipper("Copiar código", "Código copiado!", "Falha ao copiar o código!");
+        window.addEventListener('load', () => new BackToTopButton().init());
+    </script>
+    
+    <script>
+        new PostSpam().refreshListeners();
+    </script>
+    
+
+<script src="/assets/js/IframeChecker.05103d26.js"></script>
+<script src="/assets/js/gnarus/search/SendDataFromSearchToGA.16b75f13.js"></script>
+<script>
+	new SendDataFromSearchToGA();
+</script>
+</body>
+</html>
+
